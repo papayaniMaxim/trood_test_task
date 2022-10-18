@@ -24,7 +24,7 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={
+                    <Route path='/trood_test_task' element={
                         <TokenTable
                             data={tableData}
                             filters={filters}
@@ -32,7 +32,7 @@ function App() {
                             onSort={onSort}
                             onFilter={onFilter}
                             onBuy={onBuy} />} />
-                    <Route path='/project/:id' />
+                    <Route path='/trood_test_task/project/:id' />
                 </Routes>
             </BrowserRouter>
         </div>
