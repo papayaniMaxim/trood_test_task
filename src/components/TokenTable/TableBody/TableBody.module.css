@@ -1,0 +1,27 @@
+
+.bodyRows {
+    opacity: 0.7;
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+.bodyRows:hover{
+    opacity: 1;
+}
+tr > td:last-of-type{
+    text-align: end;
+}
+
+.green{
+    background-color: rgb(226, 255, 237);  
+}
+.red{
+    background-color: rgb(255, 224, 227);  
+}
+.yellow{
+    background-color: rgb(253, 255, 214);  
+}
+
+.tableBodyCell{
+    padding: 15px;  
+}
+

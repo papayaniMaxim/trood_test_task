@@ -1,0 +1,37 @@
+.container {
+    cursor: pointer;
+    z-index: 50;
+}
+.layout {
+    position: fixed;
+    z-index: 49;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: default;
+}
+.optionsList {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    translate: 0 10px;
+    z-index: 50;
+    background: rgb(255, 255, 255);
+}
+.option {
+    opacity: 0.6;
+    padding: 10px;
+}
+.option:hover {
+    opacity: 1;
+    background: rgb(228, 228, 228);
+}
+
+.arrows{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.arrows:hover{
+    opacity: 1;
+}

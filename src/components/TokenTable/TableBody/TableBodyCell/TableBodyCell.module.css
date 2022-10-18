@@ -1,0 +1,23 @@
+.tableBodyCell{
+    padding: 15px;
+}
+
+.statusIndicator{
+    margin-right: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.green{
+    background-color: rgb(0, 220, 84);
+    box-shadow: 0px 0px 5px 0px  rgba(0, 220, 84, 0.9); 
+}
+.red{
+    background-color: rgb(184, 0, 18);
+    box-shadow: 0px 0px 5px 0px  rgba(184, 0, 18, 0.9);   
+}
+.yellow{
+    background-color: rgb(255, 214, 9);
+    box-shadow: 0px 0px 5px 0px  rgba(255, 214, 9, 0.9);  
+}

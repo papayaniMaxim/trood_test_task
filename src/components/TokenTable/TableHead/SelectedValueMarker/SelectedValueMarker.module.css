@@ -1,0 +1,9 @@
+.selectedValue{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 3px;
+    cursor: default;
+    opacity: 0.6;
+}

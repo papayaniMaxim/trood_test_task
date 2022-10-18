@@ -1,0 +1,10 @@
+.columnNameSection{
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.columnNameSection:hover{
+    opacity: 0.8;
+}
